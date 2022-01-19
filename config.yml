@@ -74,7 +74,7 @@ params:
   comments: false
 
   editPost:
-    URL: "https://github.com/neo1908/pages/blob/main/content"
+    URL: "https://gitlab.com/Kathyikka/pages/blob/main/content"
     Text: "Suggest Edits"
     appendFilePath: true # to append file path to Edit link
 
