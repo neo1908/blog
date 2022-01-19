@@ -1,0 +1,95 @@
+baseURL: https://gitlab.bendavies.space
+languageCode: en-us
+title:
+theme: "PaperMod"
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+publishdir: public
+
+minify:
+  disableXML: true
+
+menu:
+  main:
+    - name: Home
+      url: /
+      weight: 1
+    - name: Archive
+      url: archives
+      weight: 2
+    - name: Categories
+      url: categories/
+      weight: 3
+    - name: Tags
+      url: tags/
+      weight: 4
+    - name: Search
+      url: search/
+      weight: 5
+
+params:
+  description: "Stuff"
+  author:
+  keywords: [Blog, Programming, Hugo]
+  env: production
+
+  defaultTheme: dark
+  images:
+    - post-cover.png
+  homeInfoParams:
+    Title: Hi there 👋
+    Content: >
+        - Nothing in particular ... yet
+
+  socialIcons:
+    - name: github
+      url: https://github.com/neo1908
+
+  outputs:
+    home:
+      - HTML
+      - RSS
+      - JSON
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+  showShareButtons: true
+  showReadingTime: true
+  showToc: false
+  showBreadCrumbs: false
+  showPostNavLinks: true
+  comments: false
+
+  editPost:
+    URL: "https://github.com/neo1908/pages/blob/main/content"
+    Text: "Suggest Edits"
+    appendFilePath: true # to append file path to Edit link
+
+  showPostNavLinks: true
+  showCodeCopyButtons: true
+
+  assets:
+    disableHLJS: true
+
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+
+markup:
+  highlight:
+    codeFences: true
+    guessSyntax: true
+    lineNos: false
+    style: monokai
