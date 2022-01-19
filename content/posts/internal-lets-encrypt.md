@@ -2,6 +2,12 @@
 title: "Internal Lets Encrypt"
 date: 2022-01-19T10:37:53Z
 draft: false
+tags:
+ - certificates
+ - ssl
+ - tls
+ - let's encrypt
+ - infrastructure
 ---
 
 # Internal Let's Encrypt Certificates
@@ -36,7 +42,7 @@ dns_cloudflare_api_token = 0123456789abcdef0123456789abcdef01234567
 
 Now you can generate a cert:
 
-```shell
+```bash
 certbot certonly --dns-cloudflare --dns-cloudflare-credentials .cloudflare_dns -d host1.example.com  --key-type ecdsa
 ```
 
@@ -52,13 +58,13 @@ The steps to deploy the cert are pretty simple, first login to your controller a
 
 Change to the unifi-core config directory
 
-```shell
+```bash
  cd /data/unifi-core/config
 ```
 
 In this directory, you'll find a couple of files, you're interested in `unifi-core.crt` and `unifi-core.key`. **Backup the origionals** then copy your `fullchain.pem` and `privkey.pem` files from Let's encrypt into this directory and rename them:
 
-```shell
+```bash
 cp /tmp/fullchain.pem /data/unifi-core/config/unifi-core.crt
 cp /tmp/privkey.pem /data/unifi-core/config/unifi-core.key
 ```
@@ -72,7 +78,7 @@ cp /tmp/privkey.pem /data/unifi-core/config/unifi-core.key
 
 ## Automation setup
 
-I've started to use [ansible-semaphore](https://ansible-semaphore.com/) to mange my playbooks. It's pretty simple to setup and use. I have an ansible script that will generate and deploy certs automatically. It runs once a day at about 2AM
+I've started to use [ansible-semaphore](https://ansible-semaphore.com/) to manage my playbooks. It's pretty simple to setup and use. I have an ansible script that will generate and deploy certs automatically. It runs once a day at about 2AM
 
 The idea is to have TLS / SSL on as much as possible but to not have to think about it - everything should be as automated. 
 
@@ -82,7 +88,7 @@ Depending on howfar you want to go, it is probably good to have some monitoring 
 
 NetData is awesome, it provides more metrics than I know what to do with.
 
-It's also nice to have one place you can go to to access everything . I use [homer](https://github.com/bastienwirtz/homer) for this. The setup is really nice - just a yaml file and a lovely dashboard is created for you:
+It's also nice to have one place you can go to access everything . I use [homer](https://github.com/bastienwirtz/homer) for this. The setup is really nice - just a yaml file and a lovely dashboard is created for you:
 
 ![image](https://user-images.githubusercontent.com/20709030/141301959-cf8e51f0-a09d-4233-ad23-0a878d871d8b.png)
 

@@ -38,13 +38,19 @@ params:
   keywords: [Blog, Programming, Hugo]
   env: production
 
-  defaultTheme: dark
+  defaultTheme: auto
   images:
     - post-cover.png
   homeInfoParams:
     Title: Hi there 👋
     Content: >
-        - Nothing in particular ... yet
+        - This is a dumping ground of thoughts, ideas and other things
+
+        - <br>
+
+        - This is not a blog, or a wiki... I don't know what it is... but it is a thing
+
+        - _Ceci n’est pas une pipe_
 
   socialIcons:
     - name: github
@@ -68,8 +74,8 @@ params:
 
   showShareButtons: true
   showReadingTime: true
-  showToc: false
-  showBreadCrumbs: false
+  showToc: true
+  showBreadCrumbs: true
   showPostNavLinks: true
   comments: false
 
@@ -92,6 +98,9 @@ taxonomies:
 markup:
   highlight:
     codeFences: true
-    guessSyntax: true
+    guessSyntax: false
     lineNos: false
     style: monokai
+  goldmark:
+    renderer:
+      hardWraps: True
