@@ -1,6 +1,6 @@
-# ConorCorp.github.io
+# Kathyikka's personal site
 
-Conor Lamb's Personal Site
+Kathyikka's Personal Site
 
 ### Development
 
