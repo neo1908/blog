@@ -1,6 +1,6 @@
 baseURL: https://blog.st2projects.com
 languageCode: en-us
-title:
+title: Blog | ST2 Projects
 theme: "PaperMod"
 
 enableInlineShortcodes: true
@@ -35,7 +35,7 @@ menu:
 params:
   description: "Stuff"
   author:
-  keywords: [Blog, Programming, Hugo]
+  keywords: [ Blog, Programming, Hugo ]
   env: production
 
   defaultTheme: auto
@@ -44,13 +44,13 @@ params:
   homeInfoParams:
     Title: Hi there 👋
     Content: >
-        - This is a dumping ground of thoughts, ideas and other things
-
-        - <br>
-
-        - This is not a blog, or a wiki... I don't know what it is... but it is a thing
-
-        - _Ceci n’est pas une pipe_
+      - This is a dumping ground of thoughts, ideas and other things
+      
+      - <br>
+      
+      - This is not a blog, or a wiki... I don't know what it is... but it is a thing
+      
+      - _Ceci n’est pas une pipe_
 
   socialIcons:
     - name: github
@@ -70,13 +70,12 @@ params:
     distance: 1000
     threshold: 0.4
     minMatchCharLength: 0
-    keys: ["title", "permalink", "summary", "content"]
+    keys: [ "title", "permalink", "summary", "content" ]
 
   showShareButtons: true
   showReadingTime: true
   showToc: true
   showBreadCrumbs: true
-  showPostNavLinks: true
   comments: false
 
   editPost:
