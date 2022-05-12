@@ -11,7 +11,7 @@ tags:
 # Working with me
 
 This post is inspired by [David Bauer's](https://www.davidbauer.ch/readme/). The goal is to provide a "user manual" for myself so that others can get an idea of what I value and how I work.
-
+<br/>
 It appears that David and I are very similar people...
 <br/>
 Naturally my ideals will change over time, and I may not always live up to them. I will update this page if I feel it's important ( assuming I remember! ).
@@ -49,5 +49,5 @@ How to communicate with me efficiently and smoothly.
 
 - **I am an introvert:** I can be loud and ( I hope ) funny, but large crowds tire me out. I need time to re-charge after social gatherings and I appreciate time alone in general. That does not mean I don't enjoy social events, I love them but I can be a little quiet for a day or so afterward
 - **I work with headphones on:** That doesn't mean you can't disturb me if you need me. I'm pretty good at setting my chat status to busy if I want to be left alone, so please check that if you need me. It's no big deal if you disturb me when I am busy, I'll find some time to catch up with you
-
+<br/>
 We're all a work in progress. I try and live by the above points but sometimes I don't, sorry about that. I want to know what I can do better and what I'm doing well, [you can even tell me what I can do better in this readme](https://gitlab.com/Kathyikka/pages/blob/main/content/posts/readme.md).
