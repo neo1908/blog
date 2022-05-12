@@ -55,11 +55,11 @@ params:
     - name: gitlab
       url: https://gitlab.com/Kathyikka
 
-  outputs:
-    home:
-      - HTML
-      - RSS
-      - JSON
+  mediaTypes:
+    text/plain:
+      suffixes:
+        - txt
+
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
@@ -71,7 +71,7 @@ params:
 
   showShareButtons: true
   showReadingTime: true
-  showToc: true
+  showToc: false
   showBreadCrumbs: true
   comments: false
 
