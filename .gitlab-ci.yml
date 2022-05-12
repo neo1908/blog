@@ -16,7 +16,6 @@ test:
 pages:
   script:
     - hugo
-    - cp -a content/.well_known public
   artifacts:
     paths:
       - public
