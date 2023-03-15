@@ -9,7 +9,11 @@ tags:
 
 Working in teams is hard, people are hard, but there are things that can make it easier. The morale in my team is pretty low at the moment because I don't think we're doing those things.
 <br/>
+
+
 _Side note:_ I'm a code monkey not a team lead or any of that management (ew) nonsense. When I say "my team" I mean _the team I'm a member of_
+
+_Side note 2:_ I wrote the original version of this after a particularly bad week... If it could fall apart it did. I stand by what I say but you'll notice that the post loses energy after the first section. I'll update it eventually and flesh out the remaining bits
 
 ## The things
 
@@ -72,11 +76,13 @@ Things break when these processes are not followed, they're there ( or should be
 If people need to hand type a fixed set of things in a ticket they will get lazy. We all have several things going on at once, processes should _reduce_ cognitive load not increase it! A fixed amount of information needs to be supplied for a merge request? Make it a template! And not a copy-and-paste-this-snippet-template either, it needs to be the default content of whatever tooling you're using.
 <br/>
 Does something need doing the exact same way every time? Automate it! Computers are far better at following instructions than humans are ( sometimes they're too good ) ... Ok, sometimes automating a task can take quite a while. When it does, it's important to just keep hack away at it and show that the team is making progress.
-There is nothing worse than having great ideas and then never seeing them come to fruiting **Doing something is better than doing nothing**
+There is nothing worse than having great ideas and then never seeing them come to fruition **Doing something is better than doing nothing**
 
 ### Spread the pain
 
 Pretty simple one here... There are boring jobs that need doing sometimes. Spread that pain around. Everyone needs to suffer a little to stop _that one guy_ from picking up all the shit jobs.
+
+One of the several issues I see in the team is that some of us always get to do the fun stuff and others don't. There isn't much difference between data entry and software development if you're not having fun.
 
 ### Don't be a dick
 
