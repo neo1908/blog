@@ -1,6 +1,6 @@
-baseURL: https://blog.st2projects.com
+baseURL: https://st2projects.com
 languageCode: en-us
-title: Blog | ST2 Projects
+title: ST2 Projects
 theme: "PaperMod"
 
 enableInlineShortcodes: true
@@ -25,9 +25,12 @@ menu:
     - name: Tags
       url: tags/
       weight: 3
+    - name: Projects
+      url: projects/
+      weight: 4
     - name: Search
       url: search/
-      weight: 4
+      weight: 5
 
 params:
   description: "Stuff"
