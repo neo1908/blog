@@ -1,23 +1,23 @@
 -----BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA256
+Hash: SHA512
 
 Contact: mailto:security@st2projects.com
-Expires: 2022-05-12T11:30:00.000Z
-Encryption: https://blog.st2projects.com/pgp.txt
+Expires: 2024-12-13T12:00:00.000Z
 Encryption: https://blog.st2projects.com/age.txt
+Encryption: https://blog.st2projects.com/pgp.txt
 Preferred-Languages: en
 Canonical: https://blog.st2projects.com/.well_known/security.txt
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCAAdFiEErL6sx3nX79SEP/6o2Kxf35mILZQFAmJ88u0ACgkQ2Kxf35mI
-LZT9swwAg9HbBc3oKEKyTOKhkqhY6aoHmhJb54efGKD6gEDo4Z4hkfD/ZKaQ8NVZ
-jE70Qw3DJtBuctSjK7yjld9n+y9DXczswMpl4lVCmxGjtbAGn329mbvx3xZR7Ixs
-lXeYX+tTVuboxOxsCDqxGWlG8izF7mDR2Pe4ETEvBe1FAPCa8bgc3x8krt70tKEO
-lQW9Woz5x2oXicrQshF/AQbpQdnBNh2MAYbBLmh05ha/ONrzKdTGZ7FXl4Hkk7hb
-8jCYPeJ1uTGUIUv243MoO9mkjWdh0agL1z11owmEPASg+203BM4iOQ37y/n+LWwW
-5/m1k74Jd4QGSDDcSF3/Zkh3pm+AV/r+CHc6EU5SfRV46Q3ql6e068efD9kvN8vi
-7XQTijvcLdq610UBwV0uEGh3zyrnMcEGu+/jccZYF1P/GpRzZ8p/Qr+H8kJ9OzzK
-GkbFISjaCFykCIk/ioRZotTIAw34+Dip+tEo9+w4PSphsnxLJtVoFk7wVxww3FN0
-jAzbAJZ2
-=+xnn
+iQGzBAEBCgAdFiEErL6sx3nX79SEP/6o2Kxf35mILZQFAmV5o5AACgkQ2Kxf35mI
+LZS8oQwAuMTz2eX7Td3vr42MsQgFlG/TKia99TScpaEzKRgdwzOkajcmm98s1qmh
+rsGPq1QzG9QxeUv13+DaI8wG7a95b+Cl1cyBoIsD1um14TFRbNkLFVyDxnnH+tod
+3BXtjTmtR1IWozwkkKlhV2jmlpw3KjTB2p4X6S692nBZj0+/hd1gB/zuhDO2fwvk
+1hqhpgYjPNTWopi/lZ99zSpRiQr9opjBqYeR9Uv12Q08z+uez5NGYtr5fHfW8x0e
+3a1PAHE9i81Knk6nMrMBdKrzH0sMqdkckWYbyzCh5QIo3a99+e3K5en9TAHvCZot
++zP0i1atGQYCmtD1FwQHs3iEBHpdUUHNY3VoZnheHhUe997b7hQiqfavR7z/O2Sv
+22nJQ3vwUuwLfs9XoXD30ShBI/2EdAwsItxRo30P9gqxEPFf5YROufyiwmkLXQLc
+q0Vu+NySL19HSb7DAujpYUdSy6i8Ixh3cBxoHKIXgWqXkXbgSOQYO6PGzLjtvTRJ
+FNTUoOWP
+=H1xX
 -----END PGP SIGNATURE-----
