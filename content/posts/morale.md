@@ -1,17 +1,17 @@
 ---
-title: "My Team Morale Is Low"
-date: 2023-03-10T18:07:00+01:00
+date: "2023-03-10T18:07:00+01:00"
 draft: false
 tags:
 - misc
 - thoughts
+title: My Team Morale Is Low
 ---
 
 Working in teams is hard, people are hard, but there are things that can make it easier. The morale in my team is pretty low at the moment because I don't think we're doing those things.
 <br/>
 
 
-_Side note:_ I'm a code monkey not a team lead or any of that management (ew) nonsense. When I say "my team" I mean _the team I'm a member of_
+_Side note:_ I'm a code monkey not a team lead or any or management. When I say "my team" I mean _the team I'm a member of_
 
 _Side note 2:_ I wrote the original version of this after a particularly bad week... If it could fall apart it did. I stand by what I say but you'll notice that the post loses energy after the first section. I'll update it eventually and flesh out the remaining bits
 

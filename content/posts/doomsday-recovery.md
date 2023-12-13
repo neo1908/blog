@@ -1,11 +1,11 @@
 ---
-title: "Doomsday Recovery"
-date: 2022-01-19T10:46:50Z
+date: "2022-01-19T10:46:50Z"
 draft: false
 tags:
- - backups
- - recovery
- - 2fa
+- backups
+- recovery
+- 2fa
+title: Doomsday Recovery
 ---
 
 # Doomsday Recovery

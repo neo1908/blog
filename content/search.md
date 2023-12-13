@@ -1,7 +1,6 @@
 ---
-title: "Search"
-layout: "search"
-# url: "/archive"
-description: "Searching time, come on grab your friends."
-summary: "search"
+description: Searching time, come on grab your friends.
+layout: search
+summary: search
+title: Search
 ---

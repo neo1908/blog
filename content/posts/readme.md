@@ -1,11 +1,11 @@
 ---
-title: "Readme"
-date: 2022-03-30T12:56:55+01:00
+date: "2022-03-30T12:56:55+01:00"
 draft: false
 tags:
 - readme
 - about me
 - misc
+title: Readme
 ---
 
 # Working with me
