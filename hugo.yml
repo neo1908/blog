@@ -35,7 +35,7 @@ menu:
 params:
   description: "Stuff"
   author:
-  keywords: [ Blog, Programming, Hugo ]
+  keywords: [Blog, Programming, Hugo]
   env: production
 
   defaultTheme: auto
@@ -45,16 +45,16 @@ params:
     Title: Hi there 👋
     Content: >
       - This is a dumping ground of thoughts, ideas and other things
-      
+
       - <br>
-      
+
       - This is not a blog, or a wiki... I don't know what it is... but it is a thing
-      
+
       - _Ceci n’est pas une pipe_
 
   socialIcons:
     - name: github
-      url: https://github.com/neo1908
+      url: https://github.com/orgs/ST2Projects/repositories
     - name: gitlab
       url: https://gitlab.com/Kathyikka
 
@@ -70,11 +70,15 @@ params:
     distance: 1000
     threshold: 0.4
     minMatchCharLength: 0
-    keys: [ "title", "permalink", "summary", "content" ]
+    keys:
+      - title
+      - permalink
+      - summary
+      - content
 
   showShareButtons: true
   showReadingTime: true
-  showToc: false
+  showToc: true
   showBreadCrumbs: true
   comments: false
 
@@ -102,4 +106,4 @@ markup:
     style: monokai
   goldmark:
     renderer:
-      hardWraps: True
+      hardWraps: true
