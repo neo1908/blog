@@ -1,7 +1,7 @@
 ---
 title: "Migrating to Github"
 date: 2024-07-16T18:57:08+01:00
-draft: true
+draft: false
 tags:
   - cloudflare
   - meta
