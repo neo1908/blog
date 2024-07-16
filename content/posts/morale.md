@@ -2,7 +2,7 @@
 date: "2023-03-10T18:07:00+01:00"
 draft: false
 tags:
-- misc
+- meta
 - thoughts
 title: My Team Morale Is Low
 ---

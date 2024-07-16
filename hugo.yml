@@ -33,7 +33,7 @@ menu:
       weight: 5
 
 params:
-  description: "Stuff"
+  description: "Stuff | Thoughts | Things"
   author:
   keywords: [Blog, Programming, Hugo]
   env: production
@@ -83,7 +83,7 @@ params:
   comments: false
 
   editPost:
-    URL: "https://gitlab.com/Kathyikka/pages/blob/main/content"
+    URL: "https://github.com/neo1908/blog/tree/main/content"
     Text: "Suggest Edits"
     appendFilePath: true # to append file path to Edit link
 

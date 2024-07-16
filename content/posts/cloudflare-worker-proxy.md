@@ -3,8 +3,8 @@ title: "Cloudflare Worker Proxy"
 date: 2023-12-13T18:15:56Z
 draft: false
 tags:
-- Cloudflare
-- Development
+- cloudflare
+- development
 - infrastructure
 ---
 

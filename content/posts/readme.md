@@ -4,7 +4,7 @@ draft: false
 tags:
 - readme
 - about me
-- misc
+- meta
 title: Readme
 ---
 
