@@ -113,3 +113,7 @@ modules.xml
 .idea/sonarlint
 
 # End of https://www.toptal.com/developers/gitignore/api/hugo,intellij+all
+node_modules/
+static/resume/*.html
+static/resume/*.pdf
+static/resume/*.txt

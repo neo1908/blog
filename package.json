@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "render": "npm-run-all --parallel render:html render:pdf",
+    "render:html": "resume export static/cv/cv.html --theme ./node_modules/jsonresume-theme-stackoverflow --resume static/cv/cv.json",
+    "render:pdf": "resume export static/cv/cv.pdf --theme ./node_modules/jsonresume-theme-stackoverflow --resume static/cv/cv.json"
+  },
+  "dependencies": {
+    "jsonresume-theme-stackoverflow": "github:neo1908/jsonresume-theme-stackoverflow",
+    "npm-run-all": "^4.1.5",
+    "resume-cli": "^3.0.8",
+    "resumed": "^3.0.1"
+  }
+}

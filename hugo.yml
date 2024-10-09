@@ -28,9 +28,12 @@ menu:
     - name: Projects
       url: projects/
       weight: 4
+    - name: CV
+      url: cv/cv.html
+      weight: 5
     - name: Search
       url: search/
-      weight: 5
+      weight: 6
 
 params:
   description: "Stuff | Thoughts | Things"

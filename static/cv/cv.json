@@ -1,0 +1,207 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Ben Davies",
+    "label": "Software Engineer",
+    "image": "",
+    "email": "ben@st2projects.com",
+    "url": "https://st2projects.com",
+    "summary": "I'm a backend developer with experience maintaining legacy code as well as building new projects from the ground up. While most of my focus has been on backend work I also have experience working fullstack implementing end to end features and several web products. I have a track record of team development and mentoring.",
+    "location": {
+      "city": "Stoke On Trent",
+      "countryCode": "GB",
+      "region": "Staffordshire"
+    }
+  },
+  "work": [
+    {
+      "name": "bet365",
+      "location": "Staffordshire",
+      "description": "bet365 is one of the world's leading online gambling companies, is a driving force in the development of enterprise and Internet technology",
+      "position": "Senior Software Developer",
+      "url": "https://bet365.com",
+      "startDate": "2023-09-05",
+      "summary": "As a software developer at bet365 I've been responsible for both designing and implementing projects working individually as well as within my own team. I've also been responsible for coordinating work across several teams all over the business",
+      "highlights": [
+        "I have a proven track record of pro-actively finding and preventing security issues including application bugs and configuration issues",
+        "Solely responsible for a implementing and managing an x509 Certificate Authority and PKI used by the team. I've also assisted in the management and implementation of a similar company wide service and mentored people across the business in PKI management and certificate issuance",
+        "Championed the use of state of the art cryptography across a range of services including an internally developed e2e encrypted file transfer service",
+        "Advocated for the adoption of modern TLS and HTTPS features including the roll out of HSTS to internal and customer facing services",
+        "Involved with developing and maintaining a bespoke monitoring service deployed to machines in 10s of datacenters across the world. I've recently taken ownership of the service and planned new features for future development work",
+        "Dealt extensively with regulatory bodies across Europe and Latin America including analysing and providing feedback on proposed reporting services",
+        "Taken ownership of the teams knowledge base and drove the migration from markdown in a gitlab repo to Atlassian Confluence",
+        "I regularly mentor junior colleagues on an ad-hoc basis and in dedicated weekly 1-1 sessions"
+      ]
+    },
+    {
+      "name": "bet365",
+      "location": "Staffordshire",
+      "description": "bet365 is one of the world's leading online gambling companies, is a driving force in the development of enterprise and Internet technology",
+      "position": "Software Developer",
+      "url": "https://bet365.com",
+      "startDate": "2019-04-01",
+      "endDate": "2023-09-05"
+    },
+    {
+      "name": "bet365",
+      "location": "Staffordshire",
+      "description": "bet365 is one of the world's leading online gambling companies, is a driving force in the development of enterprise and Internet technology",
+      "position": "Junior Developer",
+      "url": "https://bet365.com",
+      "startDate": "2016-08-01",
+      "endDate": "2019-04-01"
+    },
+    {
+      "name": "bet365",
+      "location": "Staffordshire",
+      "description": "bet365 is one of the world's leading online gambling companies, is a driving force in the development of enterprise and Internet technology",
+      "position": "Customer Service Advisor",
+      "url": "https://bet365.com",
+      "startDate": "2016-05-06",
+      "endDate": "2016-08-01",
+      "summary": "As a Customer Service Advisor I was responsible for ensuring queries were resolved quickly and efficiently. Additionally, it was vital to ensure that any information given or actions taken was correct and compliant with the relevant country regulations.",
+      "highlights": [
+        "The customer service team assists customers from across the globe, many countries have their own laws and regulations that govern gambling activity.",
+        "A focus on customer satisfaction was vital but I was also responsible for providing feedback to development teams where appropriate"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Trinity Sixth Form",
+      "url": "https://saintjohnfishercc.co.uk/sjf-sixth-form/",
+      "area": "Miscellaneous",
+      "studyType": "A Levels",
+      "startDate": "2012-09-01",
+      "endDate": "2013-08-01",
+      "courses": [
+        "Biology",
+        "Physics",
+        "Philosophy And Ethics",
+        "English Language"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Backend Development",
+      "level": "advanced",
+      "keywords": [
+        "Java",
+        "Golang",
+        "SQL",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "name": "Devops",
+      "level": "advanced",
+      "keywords": [
+        "Ansible"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "level": "beginner",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Svelte",
+        "Supabase"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Reef Keeping",
+      "summary": "I've kept several salt water fish tanks for a few years now after starting with a small freshwater tank. My current main tank is over 300L and has multiple coral and fish species",
+      "keywords": [
+        "Marine",
+        "Coral",
+        "Fish"
+      ]
+    },
+    {
+      "name": "Books",
+      "summary": "I'm a huge Brandon Sanderson fan but enjoy reading all sorts. I love to talk about my current reads!",
+      "keywords": [
+        "Collecting",
+        "Fantasy",
+        "SciFi"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "SSH Sentinel",
+      "description": "An SSH CA Service",
+      "highlights": [
+        "Simple and easy to deploy SSH CA server",
+        "Started as a project to learn golang with but now being refactored to be more flexible with pocketbase",
+        "Used extensively in my homelab"
+      ],
+      "keywords": [
+        "Golang",
+        "Pocketbase",
+        "SSH",
+        "PKI"
+      ],
+      "startDate": "2022-07-08",
+      "url": "https://github.com/ST2Projects/ssh-sentinel-server",
+      "roles": [
+        "Developer"
+      ],
+      "type": "application"
+    },
+    {
+      "name": "Abandoned By Me",
+      "description": "A side project graveyard",
+      "highlights": [
+        "Started as a project to learn more frontend development, the idea is to provide a page where devs can 'show off' their side-project graveyard. Once signed up the service will periodically update the user's profile page with a list of abandoned side-projects",
+        "Uses sveltekit and supabase and is currently deployed using Cloudflare Pages, all for free"
+      ],
+      "keywords": [
+        "Javascript",
+        "Github",
+        "Sveltekit",
+        "Cloudflare"
+      ],
+      "startDate": "2024-07-16",
+      "urls": [
+        "https://github.com/ST2Projects/abandoned-by-me.dev",
+        "https://abandoned-by-me.dev"
+        ]
+    },
+    {
+      "name": "Home lab",
+      "description": "My home lab consists of several raspberry Pis, Proxmox running on an old laptop and Ubiquity networking equipment",
+      "highlights": [
+        "The home lab gives me a place to experiment and learn new technologies.",
+        "I run everything from an Arch Linux mirror to websites for family and friends",
+        "My home network is completely custom and uses Ubiquity kit along with a custom built PFSense router. I'm currently working on adding automatic 4g/5g failover",
+        "As well as home equipment I also manage several VPS machines and a dedicated Hetzner device",
+        "All services and machines are monitored using NetData and UptimeRobot"
+      ],
+      "keywords": [
+        "DevOps",
+        "VM Provisioning",
+        "Server Management",
+        "SysAdmin"
+      ],
+      "startDate": "2016-01-01"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00",
+    "theme": "jsonresume-theme-stackoverflow-detailed"
+  }
+}
