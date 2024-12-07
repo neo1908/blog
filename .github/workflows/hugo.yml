@@ -91,4 +91,4 @@ jobs:
       - name: Install Fleek CLI
         run: npm i -g @fleek-platform/cli
       - name: Build & deploy sites
-        run: cd blog && fleek sites deploy
+        run: ls public && fleek sites deploy
