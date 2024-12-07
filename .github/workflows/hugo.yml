@@ -71,16 +71,6 @@ jobs:
           path: ./public 
           overwrite: true
           include-hidden-files: true
-      # Hacks to get fleek to work because env is lost across jobs
-      #- name: Install Node.js
-      #  uses: actions/setup-node@v3
-      #  with:
-      #    node-version: 18
-      #- name: Install Fleek CLI
-      #  run: npm i -g @fleek-platform/cli
-      #- name: Build & deploy sites
-      #  run: fleek sites deploy
-      # End hack
 
   # Deployment job
   deploy:
