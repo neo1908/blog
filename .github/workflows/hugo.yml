@@ -32,6 +32,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.128.0
+      FLEEK_TOKEN: ${{ secrets.FLEEK_TOKEN }}
+      FLEEK_PROJECT_ID: ${{ secrets.FLEEK_PROJECT_ID }}
     steps:
       - name: Install Hugo CLI
         run: |
@@ -62,6 +64,16 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
+      # Hacks to get fleek to work because env is lost across jobs
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+      - name: Install Fleek CLI
+        run: npm i -g @fleek-platform/cli
+      - name: Build & deploy sites
+        run: fleek sites deploy
+      # End hack
 
   # Deployment job
   deploy:
@@ -74,21 +86,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
-  deploy-to-fleek:
-    runs-on: ubuntu-latest
-    needs: build
-    env:
-      FLEEK_TOKEN: ${{ secrets.FLEEK_TOKEN }}
-      FLEEK_PROJECT_ID: ${{ secrets.FLEEK_PROJECT_ID }}
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: Install Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18
-      - name: Install Fleek CLI
-        run: npm i -g @fleek-platform/cli
-      - name: Build & deploy sites
-        run: ls && fleek sites deploy
