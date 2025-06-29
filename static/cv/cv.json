@@ -2,16 +2,20 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Ben Davies",
-    "label": "Software Engineer",
+    "label": "Senior Software Engineer",
     "image": "",
     "email": "ben@st2projects.com",
     "url": "https://st2projects.com",
-    "summary": "I'm a backend developer with experience maintaining legacy code as well as building new projects from the ground up. While most of my focus has been on backend work I also have experience working fullstack implementing end to end features and several web products. I have a track record of team development and mentoring.",
+    "summary": "I'm a backend developer with experience maintaining legacy code as well as building new projects from the ground up. While most of my focus has been on backend work I also have experience working fullstack implementing end to end features on several web products. I have a track record of team development and mentoring. I also enjoy evaluating new tools that bring benefits to my team and business.",
     "location": {
       "city": "Stoke On Trent",
       "countryCode": "GB",
       "region": "Staffordshire"
-    }
+    },
+    "profiles": [{
+      "network": "LinkedIn",
+      "url": "https://www.linkedin.com/in/benjamin-davies-795b2a5b/"
+    }]
   },
   "work": [
     {
@@ -23,11 +27,13 @@
       "startDate": "2023-09-05",
       "summary": "As a software developer at bet365 I've been responsible for both designing and implementing projects working individually as well as within my own team. I've also been responsible for coordinating work across several teams all over the business",
       "highlights": [
+        "I have a decade of experience in the Java ecosystem and have worked professionally with Java 8, 9 17 and 21 utilising a variety of frameworks like Spring and Jakarta CDI.",
+        "Advocated and lead on the adoption of modern AI tooling like Sourcegraph, Cody, Claude and Atlassian Rovo. This has lead to huge gains in day to day productivity and allowed junior team members to become more autonomous in their day to day work",
         "I have a proven track record of pro-actively finding and preventing security issues including application bugs and configuration issues",
         "Solely responsible for a implementing and managing an x509 Certificate Authority and PKI used by the team. I've also assisted in the management and implementation of a similar company wide service and mentored people across the business in PKI management and certificate issuance",
         "Championed the use of state of the art cryptography across a range of services including an internally developed e2e encrypted file transfer service",
         "Advocated for the adoption of modern TLS and HTTPS features including the roll out of HSTS to internal and customer facing services",
-        "Involved with developing and maintaining a bespoke monitoring service deployed to machines in 10s of datacenters across the world. I've recently taken ownership of the service and planned new features for future development work",
+        "I've recently taken ownership of a bespoke monitoring service and planned new features for future development work. In the past I've lead on developing and maintaining a the service which is deployed deployed to 100s of machines in multiple datacenters across the world.",
         "Dealt extensively with regulatory bodies across Europe and Latin America including analysing and providing feedback on proposed reporting services",
         "Taken ownership of the teams knowledge base and drove the migration from markdown in a gitlab repo to Atlassian Confluence",
         "I regularly mentor junior colleagues on an ad-hoc basis and in dedicated weekly 1-1 sessions"
@@ -87,17 +93,23 @@
       "name": "Backend Development",
       "level": "advanced",
       "keywords": [
-        "Java",
+        "Java 8, 9, 17, 21",
         "Golang",
         "SQL",
-        "PostgreSQL"
+        "PostgreSQL",
+        "Apache TommEE / Tomcat",
+        "Spring",
+        "CDI"
       ]
     },
     {
       "name": "Devops",
       "level": "advanced",
       "keywords": [
-        "Ansible"
+        "Ansible",
+        "IaC",
+        "Terraform",
+        "Linux Systems Administration"
       ]
     },
     {
@@ -161,22 +173,21 @@
       "type": "application"
     },
     {
-      "name": "Abandoned By Me",
-      "description": "A side project graveyard",
+      "name": "Vizgraph",
+      "description": "A graphviz web UI",
       "highlights": [
-        "Started as a project to learn more frontend development, the idea is to provide a page where devs can 'show off' their side-project graveyard. Once signed up the service will periodically update the user's profile page with a list of abandoned side-projects",
-        "Uses sveltekit and supabase and is currently deployed using Cloudflare Pages, all for free"
+        "Started as a project to learn more frontend development. The service provides an interactive web based UI for viewing and interacting with graphviz diagrams",
+        "Uses sveltekit and is currently deployed using Cloudflare Pages, all for free"
       ],
       "keywords": [
         "Javascript",
-        "Github",
         "Sveltekit",
         "Cloudflare"
       ],
-      "startDate": "2024-07-16",
+      "startDate": "2025-04-16",
       "urls": [
-        "https://github.com/ST2Projects/abandoned-by-me.dev",
-        "https://abandoned-by-me.dev"
+        "https://github.com/ST2Projects/vizgraph",
+        "https://vizgraph.pages.dev/"
         ]
     },
     {

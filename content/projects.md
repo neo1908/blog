@@ -21,3 +21,9 @@ I have this running on a Raspberry PI at home and it works great. There is an an
 A rust re-write of the Go version above. Progress on this is slow but I'm getting there!
 
 The final version will be deployed / deployable on [Shuttle](https://shuttle.rs)
+
+## [VizGraph](https://github.com/ST2Projects/vizgraph)
+A web based interactive GraphViz viewer. The current version is a basic proof of concept. In time I'll be adding features like:
+- Mark dependency as vulnerable - View the impact of a vulnerable dependency on your projects
+- Project filtering - Filter a specific project and simplify the view
+- Improved UI

@@ -31,6 +31,9 @@ menu:
     - name: Search
       url: search/
       weight: 5
+    - name: Hire Me!
+      url: hire-me
+      weight: 6
 
 params:
   description: "Stuff | Thoughts | Things"
