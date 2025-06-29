@@ -81,7 +81,7 @@ params:
 
   showShareButtons: true
   showReadingTime: true
-  showToc: true
+  showToc: false
   showBreadCrumbs: true
   comments: false
 

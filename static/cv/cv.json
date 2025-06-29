@@ -14,6 +14,7 @@
     },
     "profiles": [{
       "network": "LinkedIn",
+      "username": "Ben Davies",
       "url": "https://www.linkedin.com/in/benjamin-davies-795b2a5b/"
     }]
   },
