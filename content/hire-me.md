@@ -7,7 +7,7 @@ title: Hire Me!
 ## Can we work together?
 
 I'm on the lookout for a new role in the backend world! Having honed my skills extensively in the Java ecosystem (Java 8, 9, 17, and 21), alongside tools and frameworks like Spring and Jakarta CDI, I'm passionate about creating secure, scalable, and efficient solutions.
-I have also embraced emerging technologies like modern cryptographic approaches and AI-driven development tools like Claude and Sourcegraph / Cody all to drive innovation and teamwork efficiency.
+I also love working with emerging technologies like modern cryptographic approaches and AI-driven development tools like Claude and Sourcegraph / Cody all to drive innovation and teamwork efficiency.
 <br/>
 I'm at home in the Java world, but I've been branching out and have some side projects on the go with... Go! I love learning new things and tinkering with tech, new programming languages, crypto ( and cryptocurrency ), AI and automation. If you can think of it I'll probably get a kick out of playing around with it
 <br/>
